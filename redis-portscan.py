@@ -13,7 +13,7 @@ import sys
 import string
 
 if len(sys.argv) < 4:
- print sys.argv[0] + "<redis IP> <redis PORT> <IP to scan>"
+ print sys.argv[0] + " [redis IP] [redis PORT] [IP to scan]"
  sys.exit()
 
 try:

@@ -35,7 +35,7 @@ except socket.error:
     print 'Failed'
     sys.exit()
 reply = s.recv(50)
-for p in range(1, 82):
+for p in range(1, 65535):
  message = "MIGRATE " + toscan + " " + str(p) + " a1 1 1\r\n"; 
  #print message
  try :
